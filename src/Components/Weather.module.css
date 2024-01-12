@@ -95,5 +95,11 @@
   .mainTempImg img{
     margin: auto;
   }
+  .tempCont h1{
+    font-size: 5rem;
+  }
+  .tempCont p{
+    margin-top: -4rem;
+  }
   
 }

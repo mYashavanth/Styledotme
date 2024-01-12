@@ -128,9 +128,9 @@ export default function Home() {
       {loading ? (
         <p>Loading...</p>
       ) : error ? (
-        <h1 style={{ color: "rgba(40, 13, 13, 0.761)", textAlign: "center" }}>
-          Enter a valied city Name
-        </h1>
+        <div className={styles.error}>
+          <h1>Enter a valied city Name</h1>
+        </div>
       ) : (
         <>
           <Weather data={weatherData} />

@@ -67,6 +67,10 @@ body {
   text-align: end;
   margin-top: -2rem;
 }
+.error{
+  color: rgba(40, 13, 13, 0.761);
+  text-align: center;
+}
 
 @media all and (max-width: 800px) {
   .searchBar{
@@ -93,13 +97,16 @@ body {
     margin-top: -1px;
   }
   body{
-    background:url(http://i.imgur.com/CxYGDBq.jpg);
+    background:url(https://c4.wallpaperflare.com/wallpaper/411/122/504/multi-colored-flower-lot-freesia-freesia-wallpaper-preview.jpg);
     background-attachment:fixed;
     background-repeat:no-repeat;
     background-size:cover;
     position:absolute;
     top:0;
     left:0;
+  }
+  .error{
+    color: whitesmoke;
   }
   
 }
