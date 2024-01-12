@@ -24,3 +24,17 @@
     margin-bottom: -1px;
     
 }
+
+@media all and (max-width: 800px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        align-items: center;
+        align-content: center;
+    }
+    .card{
+        width: 100%;
+    }
+    
+}

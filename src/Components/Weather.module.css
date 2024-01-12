@@ -70,3 +70,30 @@
 .icon {
   font-size: 1.8rem;
 }
+
+@media all and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .weatherData {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .bodyCont {
+    width: 80%;
+  }
+  .dataCont{
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+  }
+  .mainTempImg{
+    flex-direction: column;
+    width: 90%;
+  }
+  .mainTempImg img{
+    margin: auto;
+  }
+  
+}
