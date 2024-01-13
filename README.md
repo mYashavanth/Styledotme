@@ -55,9 +55,6 @@ The application utilizes the [OpenWeatherMap API](https://openweathermap.org/){:
 ![Screenshot 2](/src/Images/MobileView.png)
 *Weather details for a specified city Mobile View*
 
-
-
-
 ## Demo
 
 [Live Demo](https://styledotme.vercel.app/){:target="_blank"}
