@@ -32,14 +32,14 @@ This single-page weather forecast application provides users with real-time weat
 
 ### API Used
 
-The application utilizes the <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap API</a> to fetch real-time weather data and forecasts for the specified city.
+The application utilizes the [OpenWeatherMap API](https://openweathermap.org/) to fetch real-time weather data and forecasts for the specified city.
 
 ### Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap API</a> for weather data
+- [OpenWeatherMap API](https://openweathermap.org/) for weather data
 - Responsive design using media queries
 
 ### How to Run
@@ -55,9 +55,12 @@ The application utilizes the <a href="https://openweathermap.org/" target="_blan
 ![Screenshot 2](/src/Images/MobileView.png)
 *Weather details for a specified city Mobile View*
 
+
+
+
 ## Demo
 
-<a href="https://styledotme.vercel.app/" target="_blank">Live Demo</a>
+[Live Demo](https://styledotme.vercel.app/)
 
 ## Known Issues
 
