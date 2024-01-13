@@ -25,7 +25,7 @@
     
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

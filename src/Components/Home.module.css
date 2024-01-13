@@ -72,38 +72,47 @@ body {
   text-align: center;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
   .searchBar{
     width: 70%;
     flex-direction: column;
+    /* border: 1px solid red; */
+    
   }
   .searchCont {
     display: flex;
     flex-direction: column;
     gap: 0rem;
+    width: 100%;
+    /* border: 1px solid red; */
   }
   .searchCont input{
-    width: 85%;
+    width: 92%;
     border-right: 1px solid brown;
     border-radius: 0.5rem;
   }
   .searchBtn{
-    width: 100%;
+    width: 40%;
     border-radius: 0.5rem;
     margin-top: -1px;
+    padding: 0.4rem;
   }
   .units{
-    width: 100%;
+    width: 45%;
     margin-top: -1px;
+    padding: 0.4rem;
+    position: absolute;
+    top: 5.5rem;
+    right: 1.5rem;
   }
   body{
-    background:url(https://c4.wallpaperflare.com/wallpaper/411/122/504/multi-colored-flower-lot-freesia-freesia-wallpaper-preview.jpg);
+    background:url(https://c1.wallpaperflare.com/preview/890/941/167/christmas-new-year-background-winter.jpg);
     background-attachment:fixed;
     background-repeat:no-repeat;
     background-size:cover;
-    position:absolute;
+    /* position:absolute;
     top:0;
-    left:0;
+    left:0; */
   }
   .error{
     color: whitesmoke;

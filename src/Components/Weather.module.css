@@ -71,7 +71,7 @@
   font-size: 1.8rem;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
   .container {
     flex-direction: column;
     width: 90%;
@@ -83,20 +83,30 @@
   }
   .bodyCont {
     width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
   }
   .dataCont{
     grid-template-columns: repeat(1, 1fr);
     width: 90%;
+    margin: auto;
   }
   .mainTempImg{
     flex-direction: column;
     width: 90%;
+    /* border: 1px solid red; */
+    align-items: center;
   }
   .mainTempImg img{
+    margin: auto;
+    /* border: 1px solid red; */
+  }
+  .tempCont{
     margin: auto;
   }
   .tempCont h1{
     font-size: 5rem;
+  
   }
   .tempCont p{
     margin-top: -4rem;
