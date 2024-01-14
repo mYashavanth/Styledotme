@@ -127,7 +127,7 @@ const Weather = ({ data }) => {
         </div>
       </div>
       <div id="bodyCont" className={styles.bodyCont}>
-        <div id="map" style={{ height: "420px" }}>
+        <div id="map" style={{ height: "460px" }}>
           <iframe
             width="100%"
             height="100%"
